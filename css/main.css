@@ -1,0 +1,33 @@
+.divider h3 {
+  font-family: var(--secondary-font);
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  text-align: center;
+  padding-top: 24px;
+  background-color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.info-container__title {
+  font-family: var(--secondary-font);
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--tertiary-color);
+}
+
+.section__link {
+  width: 220px;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border: 2px solid var(--tertiary-color);
+  text-align: center;
+}
+
+.section__link a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-family: var(--tertiary-font);
+}

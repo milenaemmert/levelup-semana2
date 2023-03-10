@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sansita&family=Zeyada&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --container-mobile: 320px;
+  --container-desktop: 1024px;
+
+  --primary-color: #F1FAEE;
+  --secondary-color: #1D3557;
+  --tertiary-color: #457B9D;
+  --quartenary-color: #E63946;
+  --header-color: #A8DADC;
+  --white: #FFFFFF;
+
+  --container-center: 0 auto;
+
+  --primary-font: 'Sansita', sans-serif;
+  --secondary-font: 'Zeyada', cursive;
+  --tertiary-font: 'Montserrat', sans-serif;
+
+  --container-desktop-padding: 0 120px;
+  --default-gap: 40px;
+  --default-padding: 40px;
+  --default-margin: 40px;
+
+}
+
+.container {
+  min-width: var(--container-mobile);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    min-width: var(--container-desktop);
+  }
+}
